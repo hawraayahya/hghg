@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI, Arial;
+}
+
+body {
+  background: white;
+  color: black;
+  padding-top: 65px;
+  text-align: center;
+}
+
+/* Her footer image */
+#footer-image {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Her loyalty card */
+#loyalty-card {
+  width: 300px;
+}
+
+/* ⭐ YOUR PART 5 CSS ⭐ */
+section h2 {
+  margin-top: 30px;
+  color: #806b63; /* project color */
+}
+
+.social-icon {
+  width: 70px;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
